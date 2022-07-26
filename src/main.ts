@@ -8,8 +8,8 @@ import en from './locales/en.json'
 
 const i18n = createI18n({
   locale: navigator.language.includes('zh') ? 'zh' : 'en',
-  messages: { zh, en }
-});
+  messages: { zh, en },
+})
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
